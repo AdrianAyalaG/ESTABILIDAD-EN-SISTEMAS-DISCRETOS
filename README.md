@@ -20,7 +20,7 @@ La estabilidad es un concepto clave en el análisis de sistemas de control de mo
 * Alejarse del origen, se vuelve más lento.
 * El polo dominante es aquel que está más cerca del radio 1 en el plano z.
 
-![Figura 1](IMG_1/Fig_1.jpeg)
+![Figura 1](IMG_1/ESTABILIDADLP.png)
 
 Figura 1. Estabilidad en el plano Z
 
@@ -63,9 +63,9 @@ $$D(z)= a_{0}z^{n}+a_{1}z^{n-1}+...+a_{n-1}z+a_{n}$$
 
 #### 2.1.2 Criterio de estabilidad de Jury
 
-![Figura 3](IMG_1/Fig_1.jpeg)
+![Figura 2](IMG_1/Fig_1.jpeg)
 
-Figura 3. Tabla arreglo de Jury 
+Figura 2. Tabla arreglo de Jury. Tomada de: https://aulas.ecci.edu.co/course/view.php?id=9304
 
 Este criterio consiste en organizar los coeficientes de las potencias de  z en orden ascendente de acuerdo con sus exponentes. En la segunda fila, se utilizan los mismos coeficientes, pero en orden inverso. Esto permite calcular la siguiente ecuación matemática para determinar los valores requeridos: 
 *Una matriz 2x2 que relaciona la primera columna de la tabla con la ultima pero con los coeficientes invetidos:
@@ -175,10 +175,17 @@ No se está cumpliendo con el criterio de al se $$n$$ un número impar debe ser 
      4. $$P(z)|_{z=-1} = -1.9 < 0$$ (Para n impar, correcto)
   * Al no tener una condición que no se cumpla, se procede a hacer el arreglo de Jury
 
-    ![Figura de prueba](ESTABILIDADLP.PNG)
+    ![Figura 3](IMG_1/Fig_2.jpeg)
 
-    Figura 13. Tabla arreglo de Jury ejercicio 2.
+    Figura 3. Tabla arreglo de Jury ejercicio 2.
 
  * Al tener 3 valores al finalizar la tabla, se analizan las otras condiciones:
    1. $$|-0.99| > |-0.25|$$ (Correcto)
  * Se concluye que el sistema es ESTABLE
+
+## Conclusiones 
+La estabilidad es un requisito crucial en los sistemas de control para evitar la pérdida de control y posibles daños al equipo, y su aseguramiento se logra mediante la aplicación de métodos de análisis específicos. Técnicas como el método de los lugares de raíces, el criterio de Routh-Hurwitz y el análisis en el dominio de la frecuencia permiten evaluar cómo se comporta el sistema ante perturbaciones y variaciones de parámetros, asegurando que se mantenga dentro de un rango seguro de operación. En resumen, la estabilidad es esencial para un funcionamiento seguro y confiable, y su análisis permite prevenir problemas que podrían comprometer el rendimiento y la integridad del sistema. 
+
+## Referencias
+
+[1] “AulasVirtualesECCI: Entrar al sitio”, Edu.co. [En línea]. Disponible: https://aulas.ecci.edu.co/course/view.php?id=9304. [Consulta: 20 de agosto de 2024].
