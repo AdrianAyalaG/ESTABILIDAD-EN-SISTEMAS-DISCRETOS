@@ -16,14 +16,14 @@ La estabilidad es un concepto clave en el análisis de sistemas de control de mo
   3. Para $$\sigma < 0 \to \lim_{\sigma \to 0} = e^{-\sigma T}=1$$ y 
      $$\lim_{\sigma \to \infty } = e^{-\sigma T}= 0$$
      *El sistema es ESTABLE
-     
-![Figura 2](IMG_1/Fig_2.jpeg)
-
-Figura 2. Estabilidad en el plano Z.
 
 * Alejarse del origen, se vuelve más lento.
 * El polo dominante es aquel que está más cerca del radio 1 en el plano z.
-  
+
+![Figura 1](IMG_1/Fig_1.jpeg)
+
+Figura 1. Estabilidad en el plano Z
+
 ## 💡'Ejemplo 1:'
 1. $$G(z)=\frac{4}{z^{3}-7.8z^{2}+13.4z+3}$$
 Se iguala a 0 el denominador y se obtienen los tres polos:
