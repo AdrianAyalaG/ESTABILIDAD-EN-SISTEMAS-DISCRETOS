@@ -4,9 +4,6 @@ La estabilidad es un concepto clave en el análisis de sistemas de control de mo
 ## Estabilidad absoluta
 >🔑 Definición: Se se aplica un patrón en la entrada y la respuesta (salida) tiene las mismas características, entonces es ESTABLE.
 
-![Figura de prueba](ESTABILIDADLP.PNG)
-
-Figura 10. Estabilidad en LaPlace. 
 
 * Con la anterior imagen se tiene la siguiente equivalencia en el plano Z: $$z=e^{Ts}$$
   Expresando: $$s= \sigma+jw$$
@@ -20,9 +17,9 @@ Figura 10. Estabilidad en LaPlace.
      $$\lim_{\sigma \to \infty } = e^{-\sigma T}= 0$$
      *El sistema es ESTABLE
      
-![Figura de prueba](ESTABILIDADLP.PNG)
+![Figura 2](IMG_1/Fig_2.jpeg)
 
-Figura 11. Estabilidad en el plano Z.
+Figura 2. Estabilidad en el plano Z.
 
 * Alejarse del origen, se vuelve más lento.
 * El polo dominante es aquel que está más cerca del radio 1 en el plano z.
@@ -66,9 +63,9 @@ $$D(z)= a_{0}z^{n}+a_{1}z^{n-1}+...+a_{n-1}z+a_{n}$$
 
 #### 2.1.2 Criterio de estabilidad de Jury
 
-![Figura de prueba](ESTABILIDADLP.PNG)
+![Figura 3](IMG_1/Fig_1.jpeg)
 
-Figura 12. Tabla arreglo de Jury 
+Figura 3. Tabla arreglo de Jury 
 
 Este criterio consiste en organizar los coeficientes de las potencias de  z en orden ascendente de acuerdo con sus exponentes. En la segunda fila, se utilizan los mismos coeficientes, pero en orden inverso. Esto permite calcular la siguiente ecuación matemática para determinar los valores requeridos: 
 *Una matriz 2x2 que relaciona la primera columna de la tabla con la ultima pero con los coeficientes invetidos:
